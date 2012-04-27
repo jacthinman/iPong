@@ -7,14 +7,17 @@
 @implementation Paddle
 @synthesize Sprite, Body, Fixture;
 
--(id) initWithWorld: (b2World*) world: (b2Body*) groundBody: (CGPoint) startPosition: (CGRect) touchArea {
+-(id) initWithWorld: (b2World*) world: (b2Body*) groundBody: (CGPoint) startPosition: (CGRect) touchArea: (BOOL) isLeft {
     if ((self=[super init])) {
         World = world;
         Ground = groundBody;
         _touchArea = touchArea;
         
-
+        if (isLeft)
         Sprite = [CCSprite spriteWithFile:@"whitedot.png"
+                                     rect:CGRectMake(50, 50, 50, 100)];
+        else
+        Sprite = [CCSprite spriteWithFile:@"reddot.png"
                                      rect:CGRectMake(50, 50, 50, 100)];
         
         Sprite.position = startPosition;

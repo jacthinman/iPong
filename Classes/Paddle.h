@@ -18,7 +18,7 @@
 @property(readonly,assign) b2Body* Body;
 @property(readonly,assign) b2Fixture* Fixture;
 
--(id) initWithWorld: (b2World*) world: (b2Body*) groundBody: (CGPoint) startPosition: (CGRect) touchArea;
+-(id) initWithWorld: (b2World*) world: (b2Body*) groundBody: (CGPoint) startPosition: (CGRect) touchArea: (BOOL) isLeft;
 -(void)destroyActiveMouseJoint;
 -(void)dealloc;
 @end

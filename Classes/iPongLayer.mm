@@ -143,11 +143,14 @@
 }
 
 - (void)spawnPaddles{
-    _leftPaddle = [[Paddle alloc] initWithWorld: _world: _groundBody: ccp(50,50): CGRectMake(0,0, winSize.width/2,winSize.height)];
+    _leftPaddle = [[Paddle alloc] initWithWorld: _world: _groundBody: ccp(50,50): CGRectMake(0,0, winSize.width/2,winSize.height): YES];
     [self addChild:_leftPaddle.Sprite];
     
-    _rightPaddle = [[Paddle alloc] initWithWorld: _world: _groundBody: ccp(winSize.width-50, 50): CGRectMake(winSize.width/2,0,winSize.width/2,winSize.height)];
+    _rightPaddle = [[Paddle alloc] initWithWorld: _world: _groundBody: ccp(winSize.width-50, 50): CGRectMake(winSize.width/2,0,winSize.width/2,winSize.height): NO];
     [self addChild:_rightPaddle.Sprite];
+    
+    _staticObstacle = [[Paddle alloc] initWithWorld: _world: _groundBody: ccp(200, winSize.height): CGRectMake(200,winSize.height, 50, 50): NO];
+    [self addChild:_staticObstacle.Sprite];
 }
 
 - (void) setupBall{

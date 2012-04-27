@@ -12,6 +12,7 @@
     b2Fixture *_ballFixture;
     Paddle *_leftPaddle;
     Paddle *_rightPaddle;
+    Paddle *_staticObstacle;
     Ball *_ball;
     
     int _leftScore;

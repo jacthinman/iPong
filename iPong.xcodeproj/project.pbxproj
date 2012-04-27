@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15755FBB154A277800B6A79C /* reddot.png in Resources */ = {isa = PBXBuildFile; fileRef = 15755FBA154A277800B6A79C /* reddot.png */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F3B9A2D0EF2145700286867 /* iPongAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* iPongAppDelegate.mm */; };
 		504DFC0610AF1414006D82FE /* CLScoreServerPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFC0010AF1414006D82FE /* CLScoreServerPost.h */; };
@@ -339,6 +340,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15755FBA154A277800B6A79C /* reddot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddot.png; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* iPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3B9A2B0EF2145700286867 /* iPongAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iPongAppDelegate.mm; sourceTree = "<group>"; };
 		1F3B9A2C0EF2145700286867 /* iPongAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPongAppDelegate.h; path = Classes/iPongAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -1010,6 +1012,7 @@
 				DA26C622134649C900CD5803 /* line.png */,
 				DAE725D113427B4D0028394E /* whitedot.png */,
 				DAC94A981337F85A005F58F2 /* Ball.png */,
+				15755FBA154A277800B6A79C /* reddot.png */,
 				E02BBA10126CC29D006E46A2 /* iTunesArtwork */,
 				E02BB53E126CA5DA006E46A2 /* Icon@2x.png */,
 				E02BB53F126CA5DA006E46A2 /* Icon-Small@2x.png */,
@@ -1472,6 +1475,7 @@
 				DA395A5D1345BD2F00A254C1 /* README.md in Resources */,
 				DA26C623134649C900CD5803 /* line.png in Resources */,
 				DA26C6251346654300CD5803 /* SF Square Head.ttf in Resources */,
+				15755FBB154A277800B6A79C /* reddot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
